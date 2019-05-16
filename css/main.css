@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: "Roboto",sans-serif;
+}
+main {
+    padding-left: 220px;
+}
+ul {
+    list-style-type: none;
+}
+section {
+    min-height: 200px;
+}
+.nav-fixed {
+    position: fixed;
+    width: 220px;
+    left: 0;
+}
+.nav-small {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .nav-fixed {
+        display: none;
+    }
+    main {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .nav-small {
+        display: none;
+    }
+}
