@@ -5,7 +5,8 @@ html {
     box-sizing: inherit;
 }
 body {
-    font-family: "Roboto",sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
 }
 main {
     padding-left: 220px;
@@ -15,6 +16,12 @@ ul {
 }
 section {
     min-height: 200px;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgba(69, 123, 157, 1);
+    color: #ffffff;
+    padding: 5px;
 }
 .icon {
     padding: 5px;
