@@ -16,6 +16,9 @@ ul {
 section {
     min-height: 200px;
 }
+.icon {
+    padding: 5px;
+}
 .nav-fixed {
     position: fixed;
     width: 220px;
