@@ -26,13 +26,15 @@ h1, h2, h3 {
 .icon {
     padding: 5px;
 }
-.nav-fixed {
+.navFixed {
     position: fixed;
     width: 220px;
     left: 0;
 }
-.nav-small {
+.navSmall {
     text-align: center;
+    color: #fff;
+    background-color: rgba(69, 123, 157, 1);
 }
 .window {
     position: relative;
@@ -50,14 +52,14 @@ h1, h2, h3 {
     background-clip: padding-box;
     box-sizing: border-box;
 }
-.container{
+.container {
     width: 95%;
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
 @media only screen and (max-width: 1000px) {
-    .nav-fixed {
+    .navFixed {
         display: none;
     }
     main {
@@ -65,9 +67,8 @@ h1, h2, h3 {
         padding-top: 50px;
     }
 }
-
 @media only screen and (min-width: 1000px) {
-    .nav-small {
+    .navSmall {
         display: none;
     }
 }
