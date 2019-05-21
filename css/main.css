@@ -66,6 +66,16 @@ h1, h2, h3 {
 .headShot {
     border-radius: 50%;
 }
+.projects {
+    text-align: center;
+}
+.projectsTxt {
+    padding-left: 25px;
+}
+.text {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 @media only screen and (max-width: 1000px) {
     .navFixed {
         display: none;
